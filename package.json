@@ -1,0 +1,23 @@
+{
+  "name": "my-face-api",
+  "version": "1.0.0",
+  "description": "An API for a social network application which uses MongoDB, Express.js, and Mongoose ODM. This will be used to handle/organize larger amounts of data for the application.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "seed": "node utils/seed",
+    "heroku-postbuild": "node utils/seed.js"
+  },
+  "dependencies": {
+    "env": "^0.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^7.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

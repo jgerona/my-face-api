@@ -10,9 +10,8 @@
     "heroku-postbuild": "node utils/seed.js"
   },
   "dependencies": {
-    "env": "^0.0.2",
     "express": "^4.17.1",
-    "mongoose": "^7.0.2"
+    "mongoose": "^7.1.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.9"

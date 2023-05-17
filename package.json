@@ -4,10 +4,7 @@
   "description": "An API for a social network application which uses MongoDB, Express.js, and Mongoose ODM. This will be used to handle/organize larger amounts of data for the application.",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index",
-    "seed": "node utils/seed",
-    "heroku-postbuild": "node utils/seed.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
